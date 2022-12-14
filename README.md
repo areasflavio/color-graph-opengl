@@ -24,6 +24,9 @@ seguir mostra um grafo não-dirigido e uma coloração válida com 4 cores.
 ## Execução
 
 ```bash
+# Instalação das ferramentas necessárias
+sudo apt install make g++ freeglut3 freeglut3-dev libglew libglew-dev libglm libglm-dev libglfw3 libglfw3-dev -y
+
 # Compilar o projeto
 make
 
