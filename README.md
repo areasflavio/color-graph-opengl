@@ -1,16 +1,27 @@
-# Trabalho 02
+# Animação coloração de grafo
 
-- [x] Desenhar mais de uma esfera
-- [x] Animar as esferas
-- [x] Alinhar as esferas como grafo
-- [x] Colorir as esferas
-- [x] Desenhar arestas
-- [x] Conectar as esferas
-- [x] Aplicar escala nas esferas
-- [x] Adicionar câmera
-- [x] Adicionar iluminação
+O objetivo da aplicação desenvolvida é simular o algoritmo de Coloração
+Sequencial de Vértices de um Grafo utilizando a biblioteca gráfica OpenGL. Um
+algoritmo de coloração de grafo não-dirigido funciona atribuindo uma cor ao
+vértice de forma que cada vértice ligado a outro não possua a mesma cor, assim
+dividindo o grafo utilizando da menor quantidade de cores possíveis. A figura a
+seguir mostra um grafo não-dirigido e uma coloração válida com 4 cores.
 
-# Installation
+<p align="center">
+<img alt="demo" src="image.png" width="50%">
+</p>
+
+## Funcionalidades
+
+- [x] Esferas 3D coloridas
+- [x] Esferas animadas com rotação e escala
+- [x] Esferas dispostas como um grafo
+- [x] Arestas 3D
+- [x] Arestas conectadas às esferas
+- [x] Função câmera com controles
+- [x] Animação com iluminação
+
+## Execução
 
 ```bash
 # Compilar o projeto
@@ -23,9 +34,7 @@ make
 make clean
 ```
 
-## Resources
-
-https://shnoh171.github.io/gpu%20and%20gpu%20programming/2019/08/26/installing-glfw-on-ubuntu.html
+## Recursos
 
 https://www.youtube.com/playlist?list=PLVRDPs83ZhmcXYuktF3r2hfyoabg_EVPO
 
